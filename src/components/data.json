@@ -1,0 +1,39 @@
+[
+    {
+      "image": "imagen1.jpg",
+      "description": "Descripción de la primera card",
+      "likes": 50,
+      "address": "Dirección 1"
+    },
+    {
+      "image": "imagen2.jpg",
+      "description": "Descripción de la segunda card",
+      "likes": 30,
+      "address": "Dirección 2"
+    },
+    {
+      "image": "imagen3.jpg",
+      "description": "Descripción de la tercera card",
+      "likes": 20,
+      "address": "Dirección 3"
+    },
+    {
+      "image": "imagen4.jpg",
+      "description": "Descripción de la cuarta card",
+      "likes": 60,
+      "address": "Dirección 4"
+    },
+    {
+      "image": "imagen5.jpg",
+      "description": "Descripción de la quinta card",
+      "likes": 40,
+      "address": "Dirección 5"
+    },
+    {
+      "image": "imagen6.jpg",
+      "description": "Descripción de la sexta card",
+      "likes": 70,
+      "address": "Dirección 6"
+    }
+  ]
+  
