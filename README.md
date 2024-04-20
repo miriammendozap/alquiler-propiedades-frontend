@@ -23,7 +23,7 @@ _En construcción..._
 _Para levantar el proyecto de forma local debe ejecutar el siguiente comando_
 
 ```
-go run main.go
+go run dev
 ```
 
 
@@ -57,7 +57,7 @@ _En construcción..._
 ## Construido con 🛠️
 
 _Lenguajes, plataformas, herramientas usadas en el proyecto:_
-
+_En construcción..._
 
 
 ## Equipo ✒️
