@@ -17,13 +17,24 @@ git clone https://github.com/miriammendozap/alquiler-propiedades-frontend.git
 
 _En construcción..._
 
+```
+NodeJs node v.18.19.0
+```
+
 
 ### Instalación 🔧
+
+
+Instalar las dependencias del proyecto
+```
+npm install
+```
+
 
 _Para levantar el proyecto de forma local debe ejecutar el siguiente comando_
 
 ```
-go run dev
+npm run dev
 ```
 
 
