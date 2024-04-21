@@ -54,7 +54,7 @@ export default function Login() {
                         src="/logo/color1.png"
                         alt="Logo"
                     />
-                    <span className="text-white text-lg tracking-tight hover:text-neutral-500">UrbanAbode</span>
+                    <span className="text-white text-lg tracking-tight hover:text-neutral-500">Rentopia</span>
                 </div>
                 {!error ? null :
                     (<div className="flex justify-center bg-slate-100 text-red-500 font-bold">
