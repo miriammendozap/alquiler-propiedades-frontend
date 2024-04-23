@@ -66,7 +66,7 @@ export default function Header() {
                                 src="/logo/color1.png"
                                 alt="Logo"
                             />
-                            <span className="text-white text-lg tracking-tight hover:text-neutral-500">UrbanAbode</span>
+                            <span className="text-green-900 text-lg tracking-tight hover:text-neutral-500">UrbanAbode</span>
                         </Link>
                     </div>
                     <div className="hidden lg:flex">
