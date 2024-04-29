@@ -34,7 +34,7 @@ export default function HouseFormCreate(){
         }
         try {
             const response = await createHouse(newHouse)          
-            if(response.data.status == "error"){
+            if(response == "error"){
                 Swal.fire({
                     position: "top-end",
                     icon: "error",
@@ -52,7 +52,7 @@ export default function HouseFormCreate(){
                 Swal.fire({
                     position: "top-end",
                     icon: "success",
-                    title: "Usuario Creado Correctamente",
+                    title: "House Creada Correctamente",
                     showConfirmButton: false,
                     timer: 1500
                 }).then(() => {

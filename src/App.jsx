@@ -40,14 +40,14 @@ function App() {
         <Routes>
           {/* Rutas Privadas */}
           <Route path="/" element={<PrivateRoute Component={Home} />} />
-          <Route path="/user" element={<PrivateRoute Component={UserList} />} />
+          {/* <Route path="/user" element={<PrivateRoute Component={UserList} />} /> */}
           <Route path="/user/:id" element={<PrivateRoute Component={UserFormEdit} />} />
-          <Route path="/change-password" element={<PrivateRoute Component={ChangePassword} />} />
+          {/* <Route path="/change-password" element={<PrivateRoute Component={ChangePassword} />} /> */}
 
           {/* Rutas de casas */}
-          <Route path="/create-house" element={<PrivateRoute Component={HouseFormCreate} />} />
+          {/* <Route path="/create-house" element={<PrivateRoute Component={HouseFormCreate} />} /> */}
           <Route path="/house" element={<PrivateRoute Component={HouseList} />} />
-          <Route path="/house/:id" element={<PrivateRoute Component={HouseFormEdit} />} />
+          {/* <Route path="/house/:id" element={<PrivateRoute Component={HouseFormEdit} />} /> */}
 
 
           <Route path="/chat" element={<PrivateRoute Component={Chat} />} />
@@ -55,6 +55,12 @@ function App() {
           {/* Rutas Publicas */}
           <Route path="/create-user" element={<UserFormCreate />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/create-house" element={<HouseFormCreate />} />
+          <Route path="/user" element={<UserList />} />
+          <Route path="/change-password" element={<ChangePassword />} />
+          <Route path="/house/:id" element={<HouseFormEdit/>} />
+
         </Routes>
         <Footer />
       </BrowserRouter>

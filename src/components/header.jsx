@@ -102,7 +102,7 @@ export default function Header() {
                     <div className="hidden text-sm text-white lg:flex">
                         {
                             !isAutheticated ? (
-                                <Link to="/login">
+                                <Link to="/create-house">
                                     <Button variant="outline" className="mr-2 bg-black">Login</Button>
                                 </Link>
                             ) : (
@@ -161,7 +161,7 @@ export default function Header() {
                                     <MenubarMenu>
                                         <MenubarTrigger className="text-slate-400 w-full" >
                                             <Avatar>
-                                                <AvatarImage src={`http://localhost:3000/${user.avatar}`} alt="@shadcn" />
+                                                <AvatarImage src={`http://localhost:3000`} alt="@shadcn" />
                                                 <AvatarFallback>CN</AvatarFallback>
                                             </Avatar>
                                         </MenubarTrigger>

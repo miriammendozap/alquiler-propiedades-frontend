@@ -29,7 +29,7 @@ export default function UserFormCreate() {
         }
         try {
             const response = await createUser(newUser)
-            if (response.data.status == "error") {
+            if (response== "error") {
                 console.log(response);
                 Swal.fire({
                     position: "top-end",
