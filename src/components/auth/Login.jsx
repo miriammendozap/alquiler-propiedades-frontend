@@ -46,7 +46,7 @@ export default function Login() {
     }
 
     return (
-        <div className="bg-gradient-to-r from-slate-900 to-slate-900 w-full mx-auto px-5 py-5 min-h-screen flex justify-center items-center">
+        <div className="bg-background mx-auto px-5 py-5 min-h-screen flex justify-center items-center">
             <div className="w-full max-w-lg  rounded-lg bg-black p-8">
                 <div className="flex flex-shrink-0 items-center justify-center p-8">
                     <img
